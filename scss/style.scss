@@ -36,7 +36,7 @@ h1 {
     width: 32px;
     height: 32px;
     background-size: 100%;
-    background-image: url(/images/tile-.png);
+    background-image: url(../images/tile-.png);
     z-index: 5;
 }
 
@@ -44,7 +44,7 @@ h1 {
     width: 32px;
     height: 32px;
     background-size: 100%;
-    background-image: url(/images/tile-W.png);
+    background-image: url(../images/tile-W.png);
     z-index: 5;
 }
 
@@ -52,7 +52,7 @@ h1 {
     width: 32px;
     height: 32px;
     background-size: 100%;
-    background-image: url(/images/tile-E.png);
+    background-image: url(../images/tile-E.png);
     z-index: 10;
     // border-top: 2px solid #ff0000;
     .health-bar {
@@ -91,7 +91,7 @@ h1 {
     width: 32px;
     height: 32px;
     background-size: 100%;
-    background-image: url(/images/tile-P.png);
+    background-image: url(../images/tile-P.png);
     z-index: 10;
     transition: all 1s;
 }
@@ -100,7 +100,7 @@ h1 {
     width: 32px;
     height: 32px;
     background-size: 100%;
-    background-image: url(/images/tile-HP.png);
+    background-image: url(../images/tile-HP.png);
     z-index: 9;
 }
 
@@ -108,7 +108,7 @@ h1 {
     width: 32px;
     height: 32px;
     background-size: 100%;
-    background-image: url(/images/tile-SW.png);
+    background-image: url(../images/tile-SW.png);
     z-index: 9;
 }
 
