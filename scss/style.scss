@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-size: 30px;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.field-box {
+    border: 2px solid #d0d0d0;
+    float: left;
+}
+
+.field {
+    position: relative;
+    width: 1024px;
+    height: 640px;
+    font-size: 0px;
+}
+
+.field .tile {
+    // position: absolute;
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(/images/tile-.png);
+    z-index: 5;
+}
+
+.field .tileW {
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(/images/tile-W.png);
+    z-index: 5;
+}
+
+.field .tileE {
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(/images/tile-E.png);
+    z-index: 10;
+    // border-top: 2px solid #ff0000;
+    .health-bar {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        height: 2px;
+        background-color: #ff0000;
+        float: left;
+    }
+    // &::after {
+    //     display: block;
+    //     content: 'attr(data-el)';
+    //     width: 32px;
+    //     margin: 0 auto;
+    //     height: 0px;
+    //     border: 1px solid rgb(224, 14, 14);
+    //     float: left;
+    // }
+}
+
+// .parent-element {
+//     display: flex;
+//     width: 1200px;
+//     height: 500px;
+//     background-color: #ffffff;
+//     &::after {
+//         content: '';
+//         width: 800px;
+//         margin: 0 auto;
+//         height: 1px;
+//         border: 0.5px solid black;
+//     }
+// }
+.field .tileP {
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(/images/tile-P.png);
+    z-index: 10;
+    transition: all 1s;
+}
+
+.field .tileHP {
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(/images/tile-HP.png);
+    z-index: 9;
+}
+
+.field .tileSW {
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(/images/tile-SW.png);
+    z-index: 9;
+}
+
+.field .tile .health {
+    background-color: #ff0000;
+    z-index: 11;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 3px;
+}
+
+.field .tileP .health {
+    background-color: #00ff00;
+    z-index: 11;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 3px;
+}
+
+.inventory-box {
+    border: 2px solid #d0d0d0;
+    float: left;
+}
+
+.inventory {
+    position: relative;
+    width: 800px;
+    height: 32px;
+}
+
+.cl {
+    clear: both;
+    display: block;
+}
+
+.field {
+    .tile-top {
+        display: inline-block;
+    }
+}
